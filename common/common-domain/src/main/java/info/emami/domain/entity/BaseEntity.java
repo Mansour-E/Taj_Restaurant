@@ -10,6 +10,9 @@ public abstract class BaseEntity<ID> {
         return id;
     }
 
+    public void setId(ID id) {
+        this.id = id;
+    }
 
     @Override
     public int hashCode() {
@@ -24,4 +27,6 @@ public abstract class BaseEntity<ID> {
         BaseEntity<?> that = (BaseEntity<?>) o;
         return id.equals(that.id);
     }
+
+
 }
