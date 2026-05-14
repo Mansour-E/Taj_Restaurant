@@ -7,12 +7,18 @@ import info.emami.order.service.domain.valueObject.OrderItemId;
 
 public class OrderItem extends BaseEntity<OrderItemId> {
 
-    private OrderItemId orderItemId;
     private OrderId  orderId;
     private final Product product;
     private final int quantity;
     private final Money Price;
     private final Money subTotal;
+
+
+
+    void initializeOrderItem(OrderId orderId, OrderItemId orderItemId){
+        this.orderId = orderId;
+        super.setId(orderItemId);
+    }
 
     private OrderItem(Builder builder) {
         super.setId(builder.orderItemId);
@@ -23,10 +29,6 @@ public class OrderItem extends BaseEntity<OrderItemId> {
         subTotal = builder.subTotal;
     }
 
-
-    public OrderItemId getOrderItemId() {
-        return orderItemId;
-    }
 
     public OrderId getOrderId() {
         return orderId;
