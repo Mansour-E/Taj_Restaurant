@@ -1,0 +1,13 @@
+package info.emami.order.service.domain.event;
+
+import info.emami.order.service.domain.entity.Order;
+
+import java.time.ZonedDateTime;
+
+public class OrderCreatedEvent extends OrderEvent {
+
+
+    public OrderCreatedEvent(Order order , ZonedDateTime createdAt){
+        super(order , createdAt);
+    }
+}
