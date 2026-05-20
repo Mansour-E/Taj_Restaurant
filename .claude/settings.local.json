@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git push *)",
+      "Bash(git config *)",
+      "Bash(mvn compile *)",
+      "Bash(./mvnw compile *)",
+      "Bash(/c/ProgramData/chocolatey/bin/mvn.cmd compile *)",
+      "Bash(gh run *)"
+    ]
+  }
+}

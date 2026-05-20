@@ -19,6 +19,7 @@
             <groupId>info.emami</groupId>
             <artifactId>order-application-service</artifactId>
         </dependency>
+
     </dependencies>
 
 </project>
