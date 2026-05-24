@@ -15,8 +15,6 @@ A modern **event-driven microservices** application for a restaurant food orderi
 
 **TAJ Restaurant** is a complete food ordering platform consisting of multiple loosely coupled microservices. The system demonstrates industry best practices for building scalable, maintainable, and resilient microservices architecture.
 
-This project was developed while following the Udemy course:  
-**"Microservices: Clean Architecture, DDD, SAGA, Outbox & Kafka"** by Ali Gelenler.
 
 ---
 
