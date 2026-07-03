@@ -112,11 +112,6 @@ Integration Tests
 Contract Tests
 End-to-End Saga Flow Tests
 
-
-📚 Learnings & References
-This project was built as part of the excellent Udemy course:
-Microservices: Clean Architecture, DDD, SAGA, Outbox & Kafka
-
 🤝 Contributing
 Feel free to open issues and pull requests. This is a learning project — improvements and discussions are welcome!
 
